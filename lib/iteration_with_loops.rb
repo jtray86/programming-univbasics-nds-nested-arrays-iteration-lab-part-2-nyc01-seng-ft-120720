@@ -6,8 +6,13 @@ def find_min_in_nested_arrays(src)
   
   while row_index<src.count do
     element_index = 0
-    lowest_number=
+    lowest_number= 150
      while element_index< src[row_index].count do
-       if src[row_index][element_index]>lowest_number
+       if src[row_index][element_index]<lowest_number
+         
+       end 
+       element_index += 1 
   end
+  lowest_number << new_array
+  row_index += 1
 end
